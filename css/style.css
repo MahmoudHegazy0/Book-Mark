@@ -1,0 +1,141 @@
+section {
+  margin: auto;
+  text-align: center;
+  background-color: RGB(247, 236, 222);
+}
+.container .titleBook h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  color: #352e28;
+  line-height: 60px;
+  margin: 0px 0px 8px;
+  padding: 8px 5px;
+  font-weight: 500;
+  position: relative;
+  isolation: isolate;
+  display: inline-block;
+  text-align: center;
+}
+.container .titleBook h1::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  left: 0;
+  bottom: 10px;
+  background-color: #fec260;
+  transition: height 350ms;
+  z-index: -1;
+}
+.container .titleBook h1:hover::before {
+  height: 50%;
+  transition: all 1s;
+}
+.container .bookBody {
+  border-width: 2px 0 2px 0;
+  border-style: dotted;
+  border-color: #352e28;
+  gap: 1.5rem !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  margin-top: 3rem !important;
+}
+
+.bookBody h2 {
+  font-family: "Dancing Script", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Righteous", sans-serif;
+  font-family: "Righteous", cursive;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.fa-solid {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+.form-control {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control::placeholder {
+  color: #6c757d;
+  opacity: 1;
+  font-size: 500;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #d99c39;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #fec26055;
+}
+::selection {
+  background-color: #fec260;
+  color: #352e28;
+}
+
+.btn {
+  color: #fff;
+  background-color: #d1512d;
+  border-color: #d1512d;
+  font-size: 1rem;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #bb4120;
+  border-color: #a03315;
+}
+.btn-visit {
+  color: #fff;
+  background-color: #9eb23b;
+  border-color: #9eb23b;
+}
+.btn-visit:hover {
+  color: #fff;
+  background-color: #8a9e23;
+  border-color: #6e8018;
+}
+.btn-visit a {
+  color: #fff;
+}
+.btn-Delete {
+  color: #fff;
+  background-color: #eb1d36;
+  border-color: #eb1d36;
+}
+.btn-Delete:hover {
+  color: #fff;
+  background-color: #d30820;
+  border-color: #ba081d;
+}
+.btn {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.btn-Delete a {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
